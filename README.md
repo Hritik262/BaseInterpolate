@@ -13,7 +13,7 @@ This project performs base conversion and Lagrange interpolation on data points 
 - **decodeBase**: Converts a number from a specified base to decimal.
 - **lagrangeInterpolation**: Calculates the interpolated value using Lagrange polynomial interpolation.
 - **processTestCase**: Reads JSON input, validates, converts bases, and performs interpolation.
-  
+
 ## Requirements
 
 - **C++ Standard**: Requires C++11 or later.
@@ -26,3 +26,9 @@ This project performs base conversion and Lagrange interpolation on data points 
 Ensure you have the following installed:
 - **C++ compiler** (e.g., GCC, Clang) that supports C++11 or later
 - **JSONCPP** library for JSON parsing (install using package manager or build from source)
+
+### Installing JSONCPP
+
+#### On Ubuntu:
+```bash
+sudo apt-get install libjsoncpp-dev
